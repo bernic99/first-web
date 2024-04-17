@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eth Wallet Address</title>
+    <link rel="stylesheet" href="css/ethereumWallet.css">
+</head>
+
+<body>
+    <button class="backBtn"><a href="Deposit.html">
+            < </a></button>
+
+
+            <div class="wallet_note"> 
+                Note: Minimum amount to deposit: 0 ETH
+                   
+            </div>
+    <div class="qrcode">
+        <img src="images/eth_qrcode.jpg" alt="" width="26%">
+    </div>
+
+  
+    <div class="container">
+        <h4>Ethereum Wallet Address</h4>
+        <input type="text" value="0xF0a9F207e5a123411741284db8FE59057536E90A" id="walletAddress" readonly>
+        <button id="copyButton">Copy Address</button>
+      </div>
+
+
+
+      <script>  
+      document.addEventListener('DOMContentLoaded', function() {
+         var copyButton = document.getElementById('copyButton');
+         var walletAddress = document.getElementById('walletAddress');
+
+  copyButton.addEventListener('click', function() {
+    // Select the text inside the input
+    walletAddress.select();
+    walletAddress.setSelectionRange(0, 99999); // For mobile devices
+
+    // Copy the text inside the input
+    document.execCommand('copy');
+
+    // Change button text to indicate successful copy
+    copyButton.innerText = 'Copied!';
+    
+    // Reset button text after 1 second
+    setTimeout(function() {
+      copyButton.innerText = 'Copy Address';
+    }, 1000);
+  });
+});
+
+    </script>
+
+
+        
+
+
+
+
+    
+
+</body>
+
+</html>

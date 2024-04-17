@@ -1,0 +1,114 @@
+body{ 
+    margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: rgb(15, 40, 49);
+}
+.backBtn{ 
+    margin-top: 70px;
+        margin-left: 17px;
+        
+        width: 40px;
+        
+        background-color:rgb(15, 40, 49) ;
+        border: none;
+       
+        border-radius: 10px;
+        
+}
+.backBtn a{ 
+        text-decoration: none;
+        color:  rgb(232, 174, 153);
+        font-size:40px;
+}
+.settingsContent1{ 
+    border-bottom: 2px solid rgb(66, 66, 92);
+    padding: 20px;
+    width: 240px;
+    margin-left: 9px;
+    
+
+
+
+}
+.settingsContent1 a{ 
+    text-decoration: none;
+    color: rgb(232, 174, 153);
+    
+
+    
+}
+.settingsContent2{ 
+    border-bottom: 2px solid rgb(66, 66, 92);
+    padding: 20px;
+    width: 240px;
+    margin-left: 9px;
+    height: 50px;
+    
+    
+
+}
+.settingsContent2 a{ 
+    text-decoration: none;
+    color: rgb(232, 174, 153);
+
+}
+.usd{ 
+
+    color: rgba(180, 224, 180, 0.518);
+    
+ 
+
+}
+.settingsContent3{ 
+    border-bottom: 2px solid rgb(66, 66, 92);
+    padding: 20px;
+    width: 240px;
+    margin-left: 9px;
+    height: 50px;
+
+}
+.settingsContent3 a { 
+    text-decoration: none;
+    color: rgb(232, 174, 153);
+
+
+}
+.english{ 
+    color: rgba(157, 191, 157, 0.55);
+    
+
+}
+.settingsContent4{ 
+    border-bottom: 2px solid rgb(66, 66, 92);
+    padding: 20px;
+    width: 240px;
+    margin-left: 9px;
+    height: 50px;
+
+}
+.settingsContent4 a { 
+    text-decoration: none;
+    color: rgb(232, 174, 153);
+}
+.settingsContent5{ 
+    border-bottom: 2px solid rgb(66, 66, 92);
+    padding: 20px;
+    width: 240px;
+    margin-left: 9px;
+    height: 50px;
+
+}
+.settingsContent5 a{ 
+
+    text-decoration: none;
+    color: rgb(232, 174, 153);
+
+}
+.verification{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 240px;
+    margin-left: 9px;
+}

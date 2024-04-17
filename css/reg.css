@@ -1,0 +1,118 @@
+body {
+
+    margin: 0;
+   background-image: url(/images/backgroundIMG.jpg);
+   background-position: center center;
+   background-attachment: fixed;
+  background-size: cover;
+   background-repeat: no-repeat;
+   backdrop-filter: blur(2px);
+   
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+  
+  h3, p {
+    margin: 1em auto;
+    text-align: center;
+    color: aqua;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 200px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    margin-bottom: 20px;
+    
+  }
+  
+      
+  form, p{ 
+      color: aqua;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 10px 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 20px;
+  }
+  
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  .heading{ 
+      border: 2px;
+      background-color: black;
+      width: 100%;
+      
+  }
+  img{ 
+     margin-right: auto;
+     margin-left: auto;
+     display: block;
+     margin-top: 50px;
+  }
+  .login{ 
+    color: white;
+  }
+  a{ 
+    color: aqua;
+  }
+  button {
+  
+  width: 50%;
+  
+  padding: 10px;
+  
+  background-color:#042447;
+  
+  color:aqua;
+  
+  border: none;
+  
+  border-radius: 3px;
+  
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 50px;
+  
+  }
+  .submit-btn{ 
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+  }
+  

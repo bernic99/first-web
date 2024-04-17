@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(15, 40, 49);
+}
+
+.backBtn {
+    margin-top: 30px;
+    margin-left: 17px;
+
+    width: 40px;
+
+    background-color: rgb(15, 40, 49);
+    border: none;
+
+    border-radius: 10px;
+
+
+}
+
+.backBtn a {
+    text-decoration: none;
+    color: rgb(232, 174, 153);
+    font-size: 30px;
+
+}
+
+
+.cryptoBtn{ 
+  
+    font-family: sans-serif;
+    text-align: center;
+    padding: 1px;
+    background-color:rgba(18, 52, 65, 0.342) ;
+    color: rgb(155, 103, 66);
+    
+    
+
+
+    height: 53px;
+    max-width: 290px;
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    border: none;
+    font-size: 16px;
+
+}
+.cryptoBtn img{ 
+    width: 15px;
+    float: right;
+   
+    padding-top: 3px;
+    padding-right: 170px;
+  
+
+}
+.debit-button{ 
+    display: inline-block;
+    width: 80%;
+    
+    border-bottom: 5px solid rgba(0, 0, 0, 0.139);
+ 
+    background-color:rgba(18, 52, 65, 0.342)  ;
+    color:rgb(155, 103, 66) ;
+    text-decoration: none;
+    
+    
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    
+}
+.debit-button img{ 
+    width: 15px;
+   padding-left: 125px;
+  
+   
+   
+
+}
+.etherium-button{ 
+    display: inline-block;
+ 
+ background-color:rgba(18, 52, 65, 0.342)  ;
+ color:rgb(155, 103, 66) ;
+ text-decoration: none;
+ 
+ width: 80%;
+    
+    border-bottom: 5px solid rgba(0, 0, 0, 0.139);
+ margin-bottom: 30px;
+ padding: 18px;
+ border-radius: 15px;
+ 
+
+}
+.etherium-button img{ 
+    width: 15px;
+    height: 15px;
+   padding-left: 137px;
+  
+    
+}
+.paypal-button{ 
+    display: inline-block;
+    width: 80%;
+    
+    border-bottom: 5px solid rgba(0, 0, 0, 0.139);
+ 
+ background-color:rgba(18, 52, 65, 0.342)  ;
+ color:rgb(155, 103, 66) ;
+ text-decoration: none;
+ 
+ 
+ margin-bottom: 30px;
+ padding: 9px 19px;
+ border-radius: 15px;
+ 
+
+}
+.paypal-button img{ 
+    width: 13px;
+   padding-left: 150px;
+
+}
+.bitcoin-button{ 
+    display: inline-block;
+ 
+    width: 80%;
+    
+    border-bottom: 5px solid rgba(0, 0, 0, 0.139);
+ 
+ background-color:rgba(18, 52, 65, 0.18)  ;
+ color:rgb(155, 103, 66) ;
+ text-decoration: none;
+ 
+ 
+ margin-bottom: 30px;
+ padding: 20px 19px;
+ border-radius: 15px;
+ 
+    
+
+
+}
+.bitcoin-button img{ 
+    width: 15px;
+   padding-left: 150px;
+}
+.applepay-button{ 
+    display: inline-block;
+    width: 80%;
+    
+    border-bottom: 5px solid rgba(0, 0, 0, 0.139);
+ 
+ background-color:rgba(18, 52, 65, 0.18)  ;
+ color:rgb(155, 103, 66) ;
+ text-decoration: none;
+ 
+ 
+ margin-bottom: 30px;
+ padding: 10px 20px;
+ border-radius: 15px;
+ 
+
+}
+.applepay-button img{ 
+    width: 15px;
+   padding-left: 130px;
+
+}
+main { 
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}

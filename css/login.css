@@ -1,0 +1,134 @@
+body {
+        
+ 
+    margin: 0;
+   background-image: url(/images/backgroundIMG.jpg);
+   background-position: center center;
+   background-attachment: fixed;
+  background-size: cover;
+   background-repeat: no-repeat;
+   backdrop-filter: blur(2px);
+   
+            
+  
+  font-family: Arial, sans-serif;
+  
+  }
+  
+  
+  
+  .container {
+  
+  width: 200px;
+  
+   margin-left:15px ;
+  
+  
+  padding: 35px;
+  
+  
+  
+  border-radius: 5px;
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 90px;
+  
+  }
+  
+  
+  
+  h1 {
+  
+  text-align: center;
+  
+  color:rgb(65, 255, 255);
+  
+  
+  }
+  
+  
+  
+  form {
+  
+  margin-top: 20px;
+  
+  }
+  
+  
+  
+  input[type="text"],
+  
+  input[type="password"] {
+  
+  width: 80%;
+  
+  padding: 10px;
+  
+  margin-bottom: 20px;
+  
+  border: 1px solid #79c8cd;
+  
+  border-radius: 3px;
+  margin-left: 10px;
+  
+  }
+  
+  
+  
+  button {
+  
+  width: 100%;
+  
+  padding: 10px;
+  
+  background-color:#042447;
+  
+  color:aqua;
+  
+  border: none;
+  
+  border-radius: 3px;
+  
+  cursor: pointer;
+  
+  }
+  
+  
+  
+  button:hover {
+  
+  background-color: #205b9e;
+  
+  }
+   a{ 
+    color: rgb(65, 222, 222);
+   
+   
+  }
+  .reg{ 
+  margin-left: 10px;
+  color: rgb(42, 255, 255);
+  }
+  img{ 
+     margin-right: auto;
+     margin-left: auto;
+     display: block;
+     margin-top: 50px;
+  }
+  .forgotPassword a{ 
+    color: rgb(42, 255, 255);
+    margin-left: 35px;
+  }
+  
+  
+  @media(max-width:1568px){ 
+    .container {
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  
+  
+  }
+  }
+  

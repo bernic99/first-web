@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(15, 40, 49);
+}
+
+.cancel {
+
+
+
+    margin-top: 65px;
+    margin-left: 17px;
+
+    width: 40px;
+
+    background-color: rgb(15, 40, 49);
+    border: none;
+
+    border-radius: 10px;
+
+
+
+
+
+
+
+}
+
+.cancel a {
+    color: rgb(232, 174, 153);
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.accountDetails {
+    background-color: rgba(30, 48, 58, 0.751);
+
+    
+    height: 320px;
+    max-width: 270px;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    
+}
+.accountDetails1{ 
+    background-color:none;
+    border-bottom: 2px solid rgba(171, 157, 157, 0.571);
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+ padding-top: 12px;
+
+
+}
+.accountDetails1 p{ 
+    margin-left: 22px;
+    color:rgb(232, 174, 153) ;
+    font-size: 15px;
+    font-family: monospace;
+
+}
+.accountDetails-end{ 
+    background-color:none;
+  
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+ padding-top: 12px;
+
+}
+.accountDetails-end p{  margin-left: 22px;
+    color:rgb(232, 174, 153) ;
+    font-size: 15px;
+    font-family: monospace;
+
+}

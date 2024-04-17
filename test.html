@@ -1,0 +1,437 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: rgba(69, 234, 234, 0.735);
+        }
+
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #012438;
+            padding: 40px 30px;
+            height: auto;
+            width: auto;
+        }
+
+
+        .header img {
+            margin-top: 10px;
+
+        }
+
+        .nav {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            background-color: rgba(42, 71, 90, 0.911);
+            border-radius: 5px;
+            padding: 8px;
+
+        }
+
+        .nav a {
+            color: #dbcfcf;
+            text-decoration: none;
+            padding: 5px 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .menu-icon {
+            display: none;
+            color: rgba(225, 204, 204, 0.927);
+            font-size: 24px;
+            cursor: pointer;
+
+        }
+
+
+        .nav {
+            top: 50px;
+        }
+
+        .menu-icon {
+            display: block;
+        }
+
+        .nav.active {
+            display: flex;
+        }
+
+
+        .account-bal {
+            width: auto;
+            background-color: #087886;
+            height: auto;
+            border: 2px;
+
+            padding: 10px;
+            margin-bottom: 20px;
+
+
+        }
+
+        .account-bal h2 {
+
+            color: rgb(37, 158, 158);
+            font-family: roboto;
+
+        }
+
+
+
+        .indicate {
+            background-color: #0b6571;
+            color: rgb(37, 158, 158);
+            padding: 0, 5px;
+            text-align: center;
+            height: auto;
+            max-width: 250px;
+            width: 100%;
+            margin: auto;
+            border-radius: 10px;
+            margin-bottom: 50px;
+            border-top: 1px solid rgb(173, 144, 91);
+            border-bottom: 1px solid rgb(173, 144, 91);
+            font-size: 10px;
+            font-family: monospace;
+
+
+
+
+
+        }
+
+        .moneyBtn {
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 20px;
+
+        }
+
+        .moneyBtn button {
+
+            width: 8em;
+            height: 3em;
+            border-radius: 30em;
+
+            border: none;
+            position: relative;
+            overflow: hidden;
+            background-color: rgba(81, 129, 141, 0.95);
+
+
+        }
+
+        .moneyBtn button a {
+            text-decoration: none;
+            font-size: 17px;
+            color: rgb(232, 174, 153);
+            font-family: inherit;
+
+        }
+
+        .footer {
+            background-color: #012438;
+            color: rgb(232, 174, 153);
+            font-family: monospace;
+            width: auto;
+            height: 300px;
+            text-align: center;
+            padding: 5px;
+
+
+        }
+
+        .icons {
+            display: flex;
+            justify-content: space-evenly;
+            font-size: xx-large;
+        }
+
+        .Account-content {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .balance {
+            flex-direction: column;
+            margin-right: 80px;
+        }
+
+        /* #arrow1{
+            color: rgb(17, 246, 17);
+        }
+        #arrow2{ 
+            color: red;
+        } */
+        .icon1-2 {
+            flex-direction: row;
+            margin-top: 15px;
+        }
+
+        .green {
+            color: rgb(37, 225, 37);
+        }
+
+        .red {
+            color: red;
+        }
+
+        #arrow {
+            color: green;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="images/logo2.jpg" alt="" width="70px">
+        <div class="menu-icon">&#9776;</div>
+        <div class="nav">
+            <a href="home page.html">Home</a>
+            <a href="settings.html">Settings</a>
+            <a href="About.html">About</a>
+
+        </div>
+    </div>
+
+    <div class="account-bal">
+        <h2>Account balance</h2>
+        <div class="Account-content">
+            <div class="balance">
+                <p id="money" style="color:rgb(57, 233, 233) ;font-size: 1.5em;">$175.00</p>
+             
+            </div>
+            <div class="icon1-2">
+                <div id="arrow1" class="green"> <i class="fa-sharp fa-solid fa-arrow-up fa-fade"></i></div>
+                <div id="arrow2"><i class="fa-sharp fa-solid fa-arrow-down fa-fade"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="indicate">
+        <p>NOTE: The green and red arrow above indicates
+            the increament and decreament of your wallet balance
+            which is due to the change in cryptocurrency market prices. </p>
+    </div>
+
+    <div class="moneyBtn">
+        <button><a href="plan.html">Deposit</a></button>
+        <button><a href="">Withdraw</a></button>
+
+    </div>
+    <!-- TradingView Widget BEGIN -->
+
+
+    <div class="BtcMarketPrice">
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow"
+                    target="_blank"><span class="blue-text">Track crypto market price</span></a></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js"
+                async>
+                    {
+                        "symbols": [
+                            {
+                                "proName": "BITSTAMP:BTCUSD",
+                                "title": "Bitcoin"
+                            },
+                            {
+                                "proName": "FOREXCOM:NSXUSD",
+                                "title": "US 100"
+                            },
+                            {
+                                "proName": "FX_IDC:EURUSD",
+                                "title": "EUR to USD"
+                            },
+                            {
+                                "proName": "BITSTAMP:BTCUSD",
+                                "title": "Bitcoin"
+                            },
+                            {
+                                "proName": "BITSTAMP:ETHUSD",
+                                "title": "Ethereum"
+                            }
+                        ],
+                            "colorTheme": "Dark",
+                                "isTransparent": false,
+                                    "showSymbolLogo": true,
+                                        "locale": "en"
+                    }
+                </script>
+        </div>
+    </div>
+    <!-- TradingView Widget END -->
+
+
+
+
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container" style="height:100%;width:100%">
+        <div id="tradingview_32050" style="height: 300px; margin-top: 20px; margin-bottom: 20px;"></div>
+        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow"
+                target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+        <script type="text/javascript">
+            new TradingView.widget(
+                {
+                    "autosize": true,
+                    "symbol": "COINBASE:BTCUSD",
+                    "interval": "D",
+                    "timezone": "Etc/UTC",
+                    "theme": "light",
+                    "style": "1",
+                    "locale": "en",
+                    "enable_publishing": false,
+                    "backgroundColor": "rgb(232, 174, 153)",
+                    "allow_symbol_change": true,
+                    "container_id": "tradingview_32050"
+                }
+            );
+        </script>
+    </div>
+    <!-- TradingView Widget END -->
+
+
+
+    <footer class="footer">
+        <h3>Contact</h3>
+        <div class="icons">
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+    <script>
+        const menuIcon = document.querySelector('.menu-icon');
+        const nav = document.querySelector('.nav');
+        const navLinks = document.querySelectorAll('.nav a');
+
+        menuIcon.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+
+        // Close the navigation when a menu item is clicked
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('active');
+            });
+        });
+
+            function getRandomBoolean(){ 
+                 Math.random()<0.9;
+            }
+
+
+            function changeColors()
+             { var arrow1 = document.getElementById("arrow1");
+             var arrow2 = document.getElementById("arrow2");
+              arrow1.classList.toggle("green");
+               arrow2.classList.toggle("red");
+         }
+          setInterval(changeColors, 3000);
+          setInterval(function(){ 
+            if(getRandomBoolean()){ 
+                changeColors();
+            }
+          },30000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        function getRandomBoolean() {
+            return Math.random() < 0.9;
+        }
+        function changeMoney(event) {
+            
+            var moneyElement = document.getElementById("money");
+            var firstArrow = document.getElementById("arrow1");
+            var secondArrow = document.getElementById("arrow2");
+           
+            if (getRandomBoolean()) {
+
+                var currentMoney = parseInt(moneyElement.textContent.slice(1));
+               
+                var newMoney = currentMoney + 2.29;
+                 moneyElement.textContent = "$" + newMoney; 
+                 firstArrow.classList.toggle("green");
+            } else { var currentMoney = parseInt(moneyElement.textContent.slice(1));
+                 var newMoney = currentMoney - 1;
+                  moneyElement.textContent = "$" + newMoney;
+                   secondArrow.classList.toggle("red"); 
+
+                } 
+
+                event.preventDefault();
+
+
+        } setInterval(changeMoney, 5000);
+
+
+
+
+       
+       
+
+
+
+
+
+
+
+
+       
+
+    </script>
+
+</body>
+
+</html>

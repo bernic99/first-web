@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(15, 40, 49);
+}
+
+.backBtn {
+    margin-top: 30px;
+    margin-left: 17px;
+
+    width: 40px;
+
+    background-color: rgb(15, 40, 49);
+    border: none;
+
+    border-radius: 10px;
+
+
+}
+
+.backBtn a {
+    text-decoration: none;
+    color: rgb(232, 174, 153);
+    font-size: 30px;
+}
+
+.about-us {
+    background-color: rgb(19, 45, 54);
+    color: rgba(180, 195, 209, 0.587);
+
+    width: auto;
+    text-align: center;
+    font-family: monospace;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: larger;
+    border-radius:10px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.achivement {
+    background-color:rgba(22, 59, 71, 0.973) ;
+
+    text-align: center;
+    height: auto;
+    max-width: 250px;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: rgb(129, 101, 101);
+
+
+}
+
+.achivementContent h2{
+   text-align: center;
+   padding-top: 30px;
+   font-size: 2em;
+   margin-top: 10px;
+
+}
+.achivementContent p{ 
+    font-size: 1em;
+    padding-bottom:10px ;
+}
